@@ -19,7 +19,6 @@ GPIO.setup(btn_right, GPIO.IN,GPIO.PUD_UP)
 GPIO.setup(btn_key1, GPIO.IN,GPIO.PUD_UP) #left button
 GPIO.setup(btn_key2, GPIO.IN,GPIO.PUD_UP) #right button
 
-    def main():
     m = PyMouse()
     KEY1_flag = False
     KEY2_flag = False
